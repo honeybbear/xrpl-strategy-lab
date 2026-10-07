@@ -1080,6 +1080,7 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     smaAt, smaArr, stdevAt, rsiWilderAt, rsiWilderArr, emaArr, bollingerArrs,
     macdArrs, stochArrs, donchianArrs, atrArr,
-    resample, isoWeekKey, fmt, bookMidPrice, STRATEGIES,
+    resample, isoWeekKey, fmt, bookMidPrice, STRATEGIES, priceDecimals,
+    updateReadout, state,
   };
 }
