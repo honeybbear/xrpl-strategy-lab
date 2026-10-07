@@ -1,8 +1,8 @@
 {
+  "note": "No robust winning strategy found. 100 agents tested on the pre-registered test set (2026-05-15..2026-10-07); none passed all three bar conditions. Closest miss: bollinger-09 on PHNIX (excess return 87.89% vs buy-and-hold, failed: roundtrips_ok). Bar was fixed before testing; no re-runs, no p-hacking.",
   "passed_bar": false,
-  "winner_name": null,
-  "token": null,
   "rules_text": null,
   "test_stats": null,
-  "note": "Tournament not yet run. Run the 100-agent tournament (Phase 4) and write the winner here."
+  "token": null,
+  "winner_name": null
 }

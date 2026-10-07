@@ -1,6 +1,10 @@
 {
-  "strategy_id": "rsi",
-  "params": {"period": 14, "buy_level": 30, "sell_level": 60},
+  "_note": "no tournament winner passed the bar; app falls back to toolkit default",
+  "params": {
+    "buy_level": 30,
+    "period": 14,
+    "sell_level": 60
+  },
   "source": "toolkit",
-  "_note": "source is 'toolkit' until a tournament winner passes the bar; then set 'tournament-winner' with the winning strategy_id + params"
+  "strategy_id": "rsi"
 }

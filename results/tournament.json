@@ -1,0 +1,3708 @@
+{
+  "leaderboard": [
+    {
+      "agent_id": "donchian-16",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 178.481978,
+      "params": {
+        "entry": 50,
+        "exit": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -78.042723,
+        "return_pct": 152.012792,
+        "round_trips": 2,
+        "sharpe": 2.584,
+        "trades": 4,
+        "win_rate": 0.5
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -94.263057,
+        "return_pct": -67.472488,
+        "round_trips": 2,
+        "sharpe": 0.5757,
+        "trades": 5,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-07",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 94.61818,
+      "params": {
+        "buy_level": 25,
+        "period": 14,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -44.180837,
+        "return_pct": 56.155708,
+        "round_trips": 3,
+        "sharpe": 1.7496,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -54.94892,
+        "return_pct": -45.207901,
+        "round_trips": 2,
+        "sharpe": -1.1476,
+        "trades": 4,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-09",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 87.889567,
+      "params": {
+        "mult": 1.5,
+        "period": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -30.047401,
+        "return_pct": 35.995932,
+        "round_trips": 5,
+        "sharpe": 1.3635,
+        "trades": 10,
+        "win_rate": 0.8
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -26.0653,
+        "return_pct": 113.709102,
+        "round_trips": 8,
+        "sharpe": 2.4002,
+        "trades": 16,
+        "win_rate": 0.875
+      }
+    },
+    {
+      "agent_id": "bollinger-01",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 87.212146,
+      "params": {
+        "mult": 1.5,
+        "period": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -19.48922,
+        "return_pct": 68.338547,
+        "round_trips": 8,
+        "sharpe": 2.1748,
+        "trades": 16,
+        "win_rate": 0.75
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -42.268997,
+        "return_pct": 161.013987,
+        "round_trips": 12,
+        "sharpe": 1.7984,
+        "trades": 24,
+        "win_rate": 0.75
+      }
+    },
+    {
+      "agent_id": "bollinger-03",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 64.865076,
+      "params": {
+        "mult": 2.5,
+        "period": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -20.120826,
+        "return_pct": 13.364191,
+        "round_trips": 3,
+        "sharpe": 0.6473,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "bollinger-12",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 64.865076,
+      "params": {
+        "mult": 3.0,
+        "period": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -20.360509,
+        "return_pct": 3.214031,
+        "round_trips": 1,
+        "sharpe": 0.3343,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "donchian-17",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 64.865076,
+      "params": {
+        "entry": 60,
+        "exit": 5
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-10",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 64.865076,
+      "params": {
+        "fast": 10,
+        "slow": 300
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-19",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 64.865076,
+      "params": {
+        "fast": 25,
+        "slow": 200
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-19",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 64.197284,
+      "params": {
+        "mult": 2.5,
+        "period": 30
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -8.29448,
+        "return_pct": 45.323685,
+        "round_trips": 2,
+        "sharpe": 2.3512,
+        "trades": 4,
+        "win_rate": 1.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -48.585047,
+        "return_pct": -18.65594,
+        "round_trips": 1,
+        "sharpe": 0.0883,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-18",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 59.39227,
+      "params": {
+        "buy_level": 30,
+        "period": 28,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -20.963568,
+        "return_pct": 37.314647,
+        "round_trips": 1,
+        "sharpe": 1.5223,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -34.377107,
+        "return_pct": 79.113639,
+        "round_trips": 2,
+        "sharpe": 1.5474,
+        "trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "bollinger-10",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 58.29536,
+      "params": {
+        "mult": 2.0,
+        "period": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -15.460676,
+        "return_pct": 39.421761,
+        "round_trips": 4,
+        "sharpe": 1.7378,
+        "trades": 8,
+        "win_rate": 0.75
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -29.252395,
+        "return_pct": 221.316831,
+        "round_trips": 3,
+        "sharpe": 1.437,
+        "trades": 6,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "rsi-16",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 56.172628,
+      "params": {
+        "buy_level": 20,
+        "period": 28,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -38.999329,
+        "return_pct": 17.710156,
+        "round_trips": 1,
+        "sharpe": 0.8972,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -19.931079,
+        "return_pct": 8.076266,
+        "round_trips": 1,
+        "sharpe": 0.5282,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "rsi-15",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 56.083332,
+      "params": {
+        "buy_level": 40,
+        "period": 21,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -32.810795,
+        "return_pct": 42.998989,
+        "round_trips": 2,
+        "sharpe": 1.4646,
+        "trades": 5,
+        "win_rate": 0.5
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -58.213501,
+        "return_pct": -20.203812,
+        "round_trips": 2,
+        "sharpe": 0.1284,
+        "trades": 4,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-09",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 53.723892,
+      "params": {
+        "buy_level": 35,
+        "period": 14,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -26.151202,
+        "return_pct": 31.646268,
+        "round_trips": 3,
+        "sharpe": 1.3006,
+        "trades": 6,
+        "win_rate": 0.333333
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -59.147806,
+        "return_pct": -16.297499,
+        "round_trips": 3,
+        "sharpe": 0.1947,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "rsi-11",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 51.893636,
+      "params": {
+        "buy_level": 20,
+        "period": 21,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -45.630762,
+        "return_pct": -8.419597,
+        "round_trips": 1,
+        "sharpe": 0.2968,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-05",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 44.431549,
+      "params": {
+        "entry": 30,
+        "exit": 5
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -9.572247,
+        "return_pct": -7.462086,
+        "round_trips": 1,
+        "sharpe": -1.3573,
+        "trades": 2,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -11.592119,
+        "return_pct": 52.084162,
+        "round_trips": 3,
+        "sharpe": 1.2602,
+        "trades": 6,
+        "win_rate": 0.666667
+      }
+    },
+    {
+      "agent_id": "bollinger-05",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 42.431601,
+      "params": {
+        "mult": 1.5,
+        "period": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -47.860116,
+        "return_pct": 3.96913,
+        "round_trips": 5,
+        "sharpe": 0.487,
+        "trades": 10,
+        "win_rate": 0.6
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -56.290062,
+        "return_pct": -39.042263,
+        "round_trips": 4,
+        "sharpe": -0.8268,
+        "trades": 8,
+        "win_rate": 0.25
+      }
+    },
+    {
+      "agent_id": "bollinger-14",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 42.418134,
+      "params": {
+        "mult": 2.0,
+        "period": 25
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -50.421092,
+        "return_pct": 3.955662,
+        "round_trips": 3,
+        "sharpe": 0.4961,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -25.847704,
+        "return_pct": -0.72025,
+        "round_trips": 1,
+        "sharpe": 0.2666,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-01",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 42.22392,
+      "params": {
+        "fast": 5,
+        "slow": 50
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -22.641156,
+        "return_pct": -22.641156,
+        "round_trips": 1,
+        "sharpe": -1.1339,
+        "trades": 2,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -20.984784,
+        "return_pct": -20.984784,
+        "round_trips": 1,
+        "sharpe": -1.6407,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-07",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 40.848144,
+      "params": {
+        "mult": 2.5,
+        "period": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -1.768696,
+        "return_pct": 18.77052,
+        "round_trips": 1,
+        "sharpe": 2.5964,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -49.149926,
+        "return_pct": -23.646268,
+        "round_trips": 1,
+        "sharpe": -0.6035,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-04",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 39.917625,
+      "params": {
+        "buy_level": 35,
+        "period": 7,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -93.889214,
+        "return_pct": 13.448438,
+        "round_trips": 11,
+        "sharpe": 2.6088,
+        "trades": 22,
+        "win_rate": 0.545455
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -80.169439,
+        "return_pct": 221.352765,
+        "round_trips": 10,
+        "sharpe": 2.3183,
+        "trades": 20,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "donchian-14",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 37.805364,
+      "params": {
+        "entry": 50,
+        "exit": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.429966,
+        "return_pct": -14.088272,
+        "round_trips": 1,
+        "sharpe": -2.3619,
+        "trades": 2,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -20.48801,
+        "return_pct": -6.514598,
+        "round_trips": 3,
+        "sharpe": -0.0108,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "rsi-03",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 36.091524,
+      "params": {
+        "buy_level": 30,
+        "period": 7,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -34.231268,
+        "return_pct": 17.217925,
+        "round_trips": 7,
+        "sharpe": 0.8796,
+        "trades": 15,
+        "win_rate": 0.571429
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -56.351031,
+        "return_pct": 88.933828,
+        "round_trips": 9,
+        "sharpe": 1.3287,
+        "trades": 19,
+        "win_rate": 0.666667
+      }
+    },
+    {
+      "agent_id": "donchian-02",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 35.304839,
+      "params": {
+        "entry": 20,
+        "exit": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.50928,
+        "return_pct": 27.960928,
+        "round_trips": 1,
+        "sharpe": 1.6272,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -27.226178,
+        "return_pct": -1.303783,
+        "round_trips": 2,
+        "sharpe": 0.137,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "bollinger-18",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 34.923614,
+      "params": {
+        "mult": 2.0,
+        "period": 30
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -49.897074,
+        "return_pct": -16.970021,
+        "round_trips": 2,
+        "sharpe": -0.1928,
+        "trades": 4,
+        "win_rate": 0.5
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -14.958322,
+        "return_pct": 150.609056,
+        "round_trips": 5,
+        "sharpe": 2.6945,
+        "trades": 10,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "bollinger-13",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 34.815997,
+      "params": {
+        "mult": 1.5,
+        "period": 25
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -32.233552,
+        "return_pct": 21.731655,
+        "round_trips": 4,
+        "sharpe": 1.027,
+        "trades": 8,
+        "win_rate": 0.5
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -58.213501,
+        "return_pct": -43.989479,
+        "round_trips": 2,
+        "sharpe": -0.7867,
+        "trades": 4,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-08",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 34.606868,
+      "params": {
+        "entry": 30,
+        "exit": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -30.258208,
+        "return_pct": -30.258208,
+        "round_trips": 2,
+        "sharpe": -1.5428,
+        "trades": 4,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -25.450207,
+        "return_pct": -16.282994,
+        "round_trips": 1,
+        "sharpe": -0.6189,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-06",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 33.625897,
+      "params": {
+        "mult": 2.0,
+        "period": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -16.940262,
+        "return_pct": 26.281986,
+        "round_trips": 4,
+        "sharpe": 1.4421,
+        "trades": 8,
+        "win_rate": 1.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -73.418761,
+        "return_pct": -65.155197,
+        "round_trips": 6,
+        "sharpe": -1.8374,
+        "trades": 12,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "rsi-02",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 33.08051,
+      "params": {
+        "buy_level": 25,
+        "period": 7,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -43.185633,
+        "return_pct": -18.813125,
+        "round_trips": 7,
+        "sharpe": -0.1415,
+        "trades": 14,
+        "win_rate": 0.428571
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -78.744125,
+        "return_pct": -63.652434,
+        "round_trips": 9,
+        "sharpe": -0.618,
+        "trades": 18,
+        "win_rate": 0.555556
+      }
+    },
+    {
+      "agent_id": "bollinger-02",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 26.469187,
+      "params": {
+        "mult": 2.0,
+        "period": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -80.067027,
+        "return_pct": -11.013565,
+        "round_trips": 7,
+        "sharpe": 1.0407,
+        "trades": 14,
+        "win_rate": 0.571429
+      }
+    },
+    {
+      "agent_id": "bollinger-11",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 26.469187,
+      "params": {
+        "mult": 2.5,
+        "period": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -80.067027,
+        "return_pct": 65.936151,
+        "round_trips": 4,
+        "sharpe": 1.247,
+        "trades": 8,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "bollinger-20",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 26.469187,
+      "params": {
+        "mult": 3.0,
+        "period": 30
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -80.067027,
+        "return_pct": 10.489791,
+        "round_trips": 1,
+        "sharpe": 1.0538,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-09",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 26.469187,
+      "params": {
+        "fast": 10,
+        "slow": 200
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-18",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 26.469187,
+      "params": {
+        "fast": 25,
+        "slow": 150
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-06",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 26.341447,
+      "params": {
+        "fast": 8,
+        "signal": 7,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -50.365812,
+        "return_pct": -38.523629,
+        "round_trips": 7,
+        "sharpe": -0.4645,
+        "trades": 15,
+        "win_rate": 0.142857
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -73.784033,
+        "return_pct": -73.153637,
+        "round_trips": 10,
+        "sharpe": -0.9952,
+        "trades": 21,
+        "win_rate": 0.3
+      }
+    },
+    {
+      "agent_id": "donchian-10",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 25.933491,
+      "params": {
+        "entry": 40,
+        "exit": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -21.682941,
+        "return_pct": -12.528981,
+        "round_trips": 2,
+        "sharpe": -0.9401,
+        "trades": 4,
+        "win_rate": 0.5
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -20.857132,
+        "return_pct": 27.730096,
+        "round_trips": 2,
+        "sharpe": 1.0751,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "rsi-10",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 25.675877,
+      "params": {
+        "buy_level": 40,
+        "period": 14,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -24.092577,
+        "return_pct": 24.596635,
+        "round_trips": 4,
+        "sharpe": 1.2722,
+        "trades": 8,
+        "win_rate": 0.75
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -49.073221,
+        "return_pct": -11.602333,
+        "round_trips": 6,
+        "sharpe": -0.0679,
+        "trades": 12,
+        "win_rate": 0.666667
+      }
+    },
+    {
+      "agent_id": "macd-15",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 24.742241,
+      "params": {
+        "fast": 12,
+        "signal": 16,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -51.485536,
+        "return_pct": -40.122835,
+        "round_trips": 4,
+        "sharpe": -0.4622,
+        "trades": 9,
+        "win_rate": 0.25
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -54.910798,
+        "return_pct": -53.443495,
+        "round_trips": 4,
+        "sharpe": -0.3723,
+        "trades": 9,
+        "win_rate": 0.25
+      }
+    },
+    {
+      "agent_id": "rsi-06",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 23.989757,
+      "params": {
+        "buy_level": 20,
+        "period": 14,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -8.581025,
+        "return_pct": 10.905415,
+        "round_trips": 1,
+        "sharpe": 1.4121,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -58.213501,
+        "return_pct": -28.414872,
+        "round_trips": 1,
+        "sharpe": -0.3441,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-01",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 23.910539,
+      "params": {
+        "entry": 20,
+        "exit": 5
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.397868,
+        "return_pct": -14.551933,
+        "round_trips": 2,
+        "sharpe": -1.8593,
+        "trades": 4,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -21.381713,
+        "return_pct": 27.698351,
+        "round_trips": 3,
+        "sharpe": 1.0907,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "ma_cross-07",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 23.098009,
+      "params": {
+        "fast": 10,
+        "slow": 100
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -30.067552,
+        "return_pct": -28.795627,
+        "round_trips": 4,
+        "sharpe": -1.5305,
+        "trades": 8,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -59.48161,
+        "return_pct": -45.760703,
+        "round_trips": 1,
+        "sharpe": 0.375,
+        "trades": 3,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-15",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 23.033841,
+      "params": {
+        "entry": 50,
+        "exit": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.442176,
+        "return_pct": 4.160242,
+        "round_trips": 0,
+        "sharpe": 0.4688,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -85.414748,
+        "return_pct": -81.042976,
+        "round_trips": 3,
+        "sharpe": 0.5623,
+        "trades": 6,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-07",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 22.158921,
+      "params": {
+        "fast": 8,
+        "signal": 9,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -21.093684,
+        "return_pct": 9.074578,
+        "round_trips": 5,
+        "sharpe": 0.6505,
+        "trades": 11,
+        "win_rate": 0.6
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -59.51461,
+        "return_pct": 49.666091,
+        "round_trips": 7,
+        "sharpe": 1.2804,
+        "trades": 14,
+        "win_rate": 0.285714
+      }
+    },
+    {
+      "agent_id": "bollinger-16",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 22.077624,
+      "params": {
+        "mult": 3.0,
+        "period": 25
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-05",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 22.077624,
+      "params": {
+        "fast": 5,
+        "slow": 300
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-19",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 21.920457,
+      "params": {
+        "buy_level": 35,
+        "period": 28,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -19.791604,
+        "return_pct": 20.841214,
+        "round_trips": 1,
+        "sharpe": 1.2354,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -27.20387,
+        "return_pct": 1.556026,
+        "round_trips": 2,
+        "sharpe": 0.3244,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "bollinger-15",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 19.974548,
+      "params": {
+        "mult": 2.5,
+        "period": 25
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -17.669885,
+        "return_pct": 12.630637,
+        "round_trips": 3,
+        "sharpe": 0.8563,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -31.847851,
+        "return_pct": -10.514821,
+        "round_trips": 2,
+        "sharpe": 0.0699,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "rsi-12",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 18.873599,
+      "params": {
+        "buy_level": 25,
+        "period": 21,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -21.878102,
+        "return_pct": 82.960556,
+        "round_trips": 2,
+        "sharpe": 1.7543,
+        "trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "rsi-20",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 17.91372,
+      "params": {
+        "buy_level": 40,
+        "period": 28,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -58.728257,
+        "return_pct": -33.979916,
+        "round_trips": 1,
+        "sharpe": -0.8409,
+        "trades": 2,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -51.270836,
+        "return_pct": 0.722759,
+        "round_trips": 2,
+        "sharpe": 0.5489,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "ma_cross-08",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 15.388102,
+      "params": {
+        "fast": 10,
+        "slow": 150
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -16.442176,
+        "return_pct": -3.485497,
+        "round_trips": 1,
+        "sharpe": 0.0736,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -75.97601,
+        "return_pct": -17.257876,
+        "round_trips": 3,
+        "sharpe": 0.8419,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "donchian-06",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 14.227772,
+      "params": {
+        "entry": 30,
+        "exit": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -18.527198,
+        "return_pct": -4.645827,
+        "round_trips": 3,
+        "sharpe": -0.0973,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -84.772704,
+        "return_pct": -70.763351,
+        "round_trips": 3,
+        "sharpe": 0.7278,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "rsi-14",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 13.771318,
+      "params": {
+        "buy_level": 35,
+        "period": 21,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -58.625725,
+        "return_pct": -51.093758,
+        "round_trips": 1,
+        "sharpe": -0.7342,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -88.971425,
+        "return_pct": -87.887731,
+        "round_trips": 0,
+        "sharpe": -1.3902,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-04",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 13.084342,
+      "params": {
+        "mult": 3.0,
+        "period": 10
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-09",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 12.708408,
+      "params": {
+        "entry": 40,
+        "exit": 5
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.735754,
+        "return_pct": -0.375934,
+        "round_trips": 3,
+        "sharpe": 0.1137,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -17.274025,
+        "return_pct": 41.399563,
+        "round_trips": 2,
+        "sharpe": 1.4813,
+        "trades": 4,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "macd-16",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 11.513325,
+      "params": {
+        "fast": 12,
+        "signal": 7,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -29.198562,
+        "return_pct": -1.571018,
+        "round_trips": 5,
+        "sharpe": 0.2402,
+        "trades": 11,
+        "win_rate": 0.6
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -58.170017,
+        "return_pct": 101.833569,
+        "round_trips": 7,
+        "sharpe": 1.878,
+        "trades": 14,
+        "win_rate": 0.428571
+      }
+    },
+    {
+      "agent_id": "donchian-12",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 9.815923,
+      "params": {
+        "entry": 40,
+        "exit": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -35.353183,
+        "return_pct": -12.261701,
+        "round_trips": 2,
+        "sharpe": -0.1632,
+        "trades": 4,
+        "win_rate": 0.5
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -26.788734,
+        "return_pct": -21.511719,
+        "round_trips": 1,
+        "sharpe": -0.7976,
+        "trades": 3,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-12",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 9.141489,
+      "params": {
+        "fast": 20,
+        "slow": 100
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -46.559288,
+        "return_pct": -29.320982,
+        "round_trips": 1,
+        "sharpe": -0.5105,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -13.214495,
+        "return_pct": -12.865286,
+        "round_trips": 0,
+        "sharpe": -1.1621,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-18",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 8.939995,
+      "params": {
+        "fast": 12,
+        "signal": 12,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -35.584194,
+        "return_pct": 1.596084,
+        "round_trips": 6,
+        "sharpe": 0.3356,
+        "trades": 13,
+        "win_rate": 0.333333
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -37.791655,
+        "return_pct": -11.572039,
+        "round_trips": 3,
+        "sharpe": -0.0683,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "ma_cross-17",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": 8.178732,
+      "params": {
+        "fast": 25,
+        "slow": 100
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -22.319501,
+        "return_pct": -10.694867,
+        "round_trips": 1,
+        "sharpe": -0.2443,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -83.113229,
+        "return_pct": -70.96854,
+        "round_trips": 4,
+        "sharpe": 0.8799,
+        "trades": 9,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "rsi-08",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 7.871761,
+      "params": {
+        "buy_level": 30,
+        "period": 14,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -33.822696,
+        "return_pct": 0.527849,
+        "round_trips": 3,
+        "sharpe": 0.3109,
+        "trades": 6,
+        "win_rate": 0.666667
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -74.365571,
+        "return_pct": -63.053219,
+        "round_trips": 3,
+        "sharpe": -1.6718,
+        "trades": 7,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "donchian-20",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 7.739802,
+      "params": {
+        "entry": 60,
+        "exit": 20
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.409919,
+        "return_pct": 0.395891,
+        "round_trips": 1,
+        "sharpe": 0.1838,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-11",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 7.620464,
+      "params": {
+        "entry": 40,
+        "exit": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -16.50928,
+        "return_pct": 0.276553,
+        "round_trips": 1,
+        "sharpe": 0.1746,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -31.215202,
+        "return_pct": 0.626378,
+        "round_trips": 1,
+        "sharpe": 0.2294,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "rsi-17",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 7.343911,
+      "params": {
+        "buy_level": 25,
+        "period": 28,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -38.88682,
+        "return_pct": -12.190928,
+        "round_trips": 1,
+        "sharpe": 0.081,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-16",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": 7.02183,
+      "params": {
+        "fast": 25,
+        "slow": 50
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -46.936313,
+        "return_pct": -44.871805,
+        "round_trips": 2,
+        "sharpe": -1.6738,
+        "trades": 4,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -59.48161,
+        "return_pct": -38.693809,
+        "round_trips": 1,
+        "sharpe": 0.466,
+        "trades": 3,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "rsi-05",
+      "buyhold_test": {
+        "max_drawdown_pct": -70.276146,
+        "return_pct": -64.865076
+      },
+      "excess_return_pct": 6.34936,
+      "params": {
+        "buy_level": 40,
+        "period": 7,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -67.68013,
+        "return_pct": -58.515715,
+        "round_trips": 6,
+        "sharpe": -1.1349,
+        "trades": 13,
+        "win_rate": 0.5
+      },
+      "token": "SOLO",
+      "train": {
+        "max_drawdown_pct": -85.980286,
+        "return_pct": -84.129426,
+        "round_trips": 8,
+        "sharpe": -1.2742,
+        "trades": 16,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "macd-09",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": 4.836652,
+      "params": {
+        "fast": 8,
+        "signal": 14,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -35.609258,
+        "return_pct": -2.507259,
+        "round_trips": 5,
+        "sharpe": 0.1377,
+        "trades": 11,
+        "win_rate": 0.2
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": -38.09912,
+        "return_pct": -15.192245,
+        "round_trips": 3,
+        "sharpe": -0.2,
+        "trades": 6,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "ma_cross-20",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": 4.614537,
+      "params": {
+        "fast": 25,
+        "slow": 300
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -20.756333,
+        "return_pct": -8.469806,
+        "round_trips": 0,
+        "sharpe": -0.1819,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-08",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 3.919369,
+      "params": {
+        "mult": 3.0,
+        "period": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -9.045691,
+        "return_pct": 2.840127,
+        "round_trips": 1,
+        "sharpe": 0.4661,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-19",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": 3.537527,
+      "params": {
+        "entry": 60,
+        "exit": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -37.507879,
+        "return_pct": -34.924944,
+        "round_trips": 1,
+        "sharpe": -1.1472,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -13.540182,
+        "return_pct": 33.877801,
+        "round_trips": 1,
+        "sharpe": 1.504,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "rsi-01",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 3.506757,
+      "params": {
+        "buy_level": 20,
+        "period": 7,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -19.296234,
+        "return_pct": 2.427514,
+        "round_trips": 5,
+        "sharpe": 0.3487,
+        "trades": 11,
+        "win_rate": 0.8
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -51.437987,
+        "return_pct": -29.82645,
+        "round_trips": 7,
+        "sharpe": -0.8157,
+        "trades": 14,
+        "win_rate": 0.571429
+      }
+    },
+    {
+      "agent_id": "macd-10",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 2.821404,
+      "params": {
+        "fast": 8,
+        "signal": 16,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -23.881579,
+        "return_pct": -19.25622,
+        "round_trips": 7,
+        "sharpe": -0.4834,
+        "trades": 15,
+        "win_rate": 0.428571
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -57.16603,
+        "return_pct": -27.071263,
+        "round_trips": 5,
+        "sharpe": -0.2208,
+        "trades": 11,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "bollinger-17",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 1.846495,
+      "params": {
+        "mult": 1.5,
+        "period": 30
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "bollinger",
+      "test": {
+        "max_drawdown_pct": -24.190892,
+        "return_pct": 0.767253,
+        "round_trips": 2,
+        "sharpe": 0.2432,
+        "trades": 4,
+        "win_rate": 0.5
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -38.838884,
+        "return_pct": -16.172322,
+        "round_trips": 4,
+        "sharpe": -0.28,
+        "trades": 8,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "donchian-03",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": 1.377612,
+      "params": {
+        "entry": 20,
+        "exit": 15
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -41.570649,
+        "return_pct": -20.700011,
+        "round_trips": 3,
+        "sharpe": -0.4761,
+        "trades": 6,
+        "win_rate": 0.333333
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -26.836154,
+        "return_pct": 1.271377,
+        "round_trips": 1,
+        "sharpe": 0.3672,
+        "trades": 3,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-02",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": 0.168558,
+      "params": {
+        "fast": 8,
+        "signal": 9,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": true,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -21.509205,
+        "return_pct": -0.910685,
+        "round_trips": 6,
+        "sharpe": 0.1473,
+        "trades": 12,
+        "win_rate": 0.166667
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -18.144118,
+        "return_pct": 2.238658,
+        "round_trips": 7,
+        "sharpe": 0.2826,
+        "trades": 15,
+        "win_rate": 0.571429
+      }
+    },
+    {
+      "agent_id": "rsi-13",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": 0.0,
+      "params": {
+        "buy_level": 30,
+        "period": 21,
+        "sell_level": 60
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "rsi",
+      "test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187,
+        "round_trips": 0,
+        "sharpe": 4.8718,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -82.622463,
+        "return_pct": 21.15541,
+        "round_trips": 2,
+        "sharpe": 2.4135,
+        "trades": 5,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "macd-03",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": -2.485849,
+      "params": {
+        "fast": 8,
+        "signal": 12,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -58.545534,
+        "return_pct": -54.379484,
+        "round_trips": 6,
+        "sharpe": -3.6489,
+        "trades": 13,
+        "win_rate": 0.166667
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -47.317959,
+        "return_pct": 36.389998,
+        "round_trips": 9,
+        "sharpe": 1.0429,
+        "trades": 18,
+        "win_rate": 0.333333
+      }
+    },
+    {
+      "agent_id": "macd-19",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": -3.596299,
+      "params": {
+        "fast": 12,
+        "signal": 14,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -31.233647,
+        "return_pct": -25.673923,
+        "round_trips": 6,
+        "sharpe": -0.7665,
+        "trades": 13,
+        "win_rate": 0.166667
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -55.417611,
+        "return_pct": -14.436225,
+        "round_trips": 4,
+        "sharpe": 0.1047,
+        "trades": 9,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-15",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -4.03501,
+      "params": {
+        "fast": 20,
+        "slow": 300
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -6.572937,
+        "return_pct": -5.114252,
+        "round_trips": 0,
+        "sharpe": -1.2656,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-03",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": -6.432896,
+      "params": {
+        "fast": 5,
+        "slow": 150
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -44.895367,
+        "return_pct": -44.895367,
+        "round_trips": 2,
+        "sharpe": -3.4721,
+        "trades": 5,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -15.801382,
+        "return_pct": -2.6157,
+        "round_trips": 0,
+        "sharpe": -0.0528,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-13",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -7.098219,
+      "params": {
+        "entry": 50,
+        "exit": 5
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -9.745094,
+        "return_pct": -8.177462,
+        "round_trips": 3,
+        "sharpe": -1.4541,
+        "trades": 6,
+        "win_rate": 0.0
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -10.787027,
+        "return_pct": -10.787027,
+        "round_trips": 1,
+        "sharpe": -2.2317,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-18",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": -7.099905,
+      "params": {
+        "entry": 60,
+        "exit": 10
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -28.896826,
+        "return_pct": -20.184248,
+        "round_trips": 2,
+        "sharpe": -1.5032,
+        "trades": 4,
+        "win_rate": 0.0
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -15.434711,
+        "return_pct": 29.793533,
+        "round_trips": 1,
+        "sharpe": 1.3532,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "donchian-04",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -7.608084,
+      "params": {
+        "entry": 20,
+        "exit": 20
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -19.674377,
+        "return_pct": -8.687327,
+        "round_trips": 2,
+        "sharpe": -0.492,
+        "trades": 5,
+        "win_rate": 0.5
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -34.17715,
+        "return_pct": -23.157384,
+        "round_trips": 2,
+        "sharpe": -1.4537,
+        "trades": 5,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-08",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": -8.014826,
+      "params": {
+        "fast": 8,
+        "signal": 12,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -51.419512,
+        "return_pct": -46.477297,
+        "round_trips": 6,
+        "sharpe": -2.0976,
+        "trades": 12,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -33.279574,
+        "return_pct": 105.067604,
+        "round_trips": 2,
+        "sharpe": 2.1657,
+        "trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "macd-17",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.950963,
+        "return_pct": -38.462471
+      },
+      "excess_return_pct": -8.540847,
+      "params": {
+        "fast": 12,
+        "signal": 9,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -51.896961,
+        "return_pct": -47.003319,
+        "round_trips": 6,
+        "sharpe": -2.1325,
+        "trades": 12,
+        "win_rate": 0.0
+      },
+      "token": "DROP",
+      "train": {
+        "max_drawdown_pct": -29.961915,
+        "return_pct": 118.366246,
+        "round_trips": 2,
+        "sharpe": 2.3301,
+        "trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-13",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": -8.543474,
+      "params": {
+        "fast": 20,
+        "slow": 150
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -27.240654,
+        "return_pct": -15.887385,
+        "round_trips": 0,
+        "sharpe": -0.6178,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-12",
+      "buyhold_test": {
+        "max_drawdown_pct": -61.640166,
+        "return_pct": -51.893636
+      },
+      "excess_return_pct": -9.188487,
+      "params": {
+        "fast": 12,
+        "signal": 9,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -65.311051,
+        "return_pct": -61.082122,
+        "round_trips": 5,
+        "sharpe": -4.3151,
+        "trades": 11,
+        "win_rate": 0.0
+      },
+      "token": "PHNIX",
+      "train": {
+        "max_drawdown_pct": -47.317959,
+        "return_pct": 39.62606,
+        "round_trips": 10,
+        "sharpe": 1.0761,
+        "trades": 20,
+        "win_rate": 0.4
+      }
+    },
+    {
+      "agent_id": "ma_cross-06",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -11.422383,
+      "params": {
+        "fast": 10,
+        "slow": 50
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -20.913486,
+        "return_pct": -12.501626,
+        "round_trips": 1,
+        "sharpe": -0.7251,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -23.421652,
+        "return_pct": -18.792714,
+        "round_trips": 2,
+        "sharpe": -1.763,
+        "trades": 5,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-01",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": -11.709574,
+      "params": {
+        "fast": 8,
+        "signal": 7,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -35.323303,
+        "return_pct": -33.787198,
+        "round_trips": 6,
+        "sharpe": -1.3297,
+        "trades": 13,
+        "win_rate": 0.333333
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": -39.653153,
+        "return_pct": 4.520842,
+        "round_trips": 6,
+        "sharpe": 0.5345,
+        "trades": 13,
+        "win_rate": 0.166667
+      }
+    },
+    {
+      "agent_id": "macd-20",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -13.57433,
+      "params": {
+        "fast": 12,
+        "signal": 16,
+        "slow": 26
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -22.261159,
+        "return_pct": -14.653573,
+        "round_trips": 5,
+        "sharpe": -0.9256,
+        "trades": 10,
+        "win_rate": 0.2
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -26.148191,
+        "return_pct": -16.085398,
+        "round_trips": 4,
+        "sharpe": -0.5952,
+        "trades": 9,
+        "win_rate": 0.5
+      }
+    },
+    {
+      "agent_id": "macd-11",
+      "buyhold_test": {
+        "max_drawdown_pct": -30.834486,
+        "return_pct": -1.079243
+      },
+      "excess_return_pct": -16.731684,
+      "params": {
+        "fast": 12,
+        "signal": 7,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -21.15901,
+        "return_pct": -17.810926,
+        "round_trips": 5,
+        "sharpe": -1.2476,
+        "trades": 10,
+        "win_rate": 0.2
+      },
+      "token": "XRP",
+      "train": {
+        "max_drawdown_pct": -23.055089,
+        "return_pct": -13.926367,
+        "round_trips": 10,
+        "sharpe": -0.5034,
+        "trades": 21,
+        "win_rate": 0.3
+      }
+    },
+    {
+      "agent_id": "ma_cross-14",
+      "buyhold_test": {
+        "max_drawdown_pct": -51.771251,
+        "return_pct": -22.077624
+      },
+      "excess_return_pct": -21.363575,
+      "params": {
+        "fast": 20,
+        "slow": 200
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -56.088476,
+        "return_pct": -43.441199,
+        "round_trips": 2,
+        "sharpe": -2.39,
+        "trades": 4,
+        "win_rate": 0.0
+      },
+      "token": "BEAR",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-04",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": -22.402415,
+      "params": {
+        "fast": 8,
+        "signal": 14,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -44.149482,
+        "return_pct": -41.276014,
+        "round_trips": 7,
+        "sharpe": -2.0864,
+        "trades": 14,
+        "win_rate": 0.142857
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -90.196229,
+        "return_pct": -74.437071,
+        "round_trips": 10,
+        "sharpe": 0.8774,
+        "trades": 20,
+        "win_rate": 0.4
+      }
+    },
+    {
+      "agent_id": "ma_cross-04",
+      "buyhold_test": {
+        "max_drawdown_pct": -38.98128,
+        "return_pct": -7.343911
+      },
+      "excess_return_pct": -23.832404,
+      "params": {
+        "fast": 5,
+        "slow": 200
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": true,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -31.446666,
+        "return_pct": -31.176315,
+        "round_trips": 1,
+        "sharpe": -1.9483,
+        "trades": 3,
+        "win_rate": 0.0
+      },
+      "token": "SLT",
+      "train": {
+        "max_drawdown_pct": 0.0,
+        "return_pct": 0.0,
+        "round_trips": 0,
+        "sharpe": 0.0,
+        "trades": 0,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-13",
+      "buyhold_test": {
+        "max_drawdown_pct": -50.269301,
+        "return_pct": -18.873599
+      },
+      "excess_return_pct": -26.440602,
+      "params": {
+        "fast": 12,
+        "signal": 12,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -50.098916,
+        "return_pct": -45.314201,
+        "round_trips": 5,
+        "sharpe": -2.9354,
+        "trades": 10,
+        "win_rate": 0.0
+      },
+      "token": "ARMY",
+      "train": {
+        "max_drawdown_pct": -92.733191,
+        "return_pct": -82.025868,
+        "round_trips": 9,
+        "sharpe": 0.7287,
+        "trades": 18,
+        "win_rate": 0.222222
+      }
+    },
+    {
+      "agent_id": "ma_cross-11",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": -30.077578,
+      "params": {
+        "fast": 20,
+        "slow": 50
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -49.378193,
+        "return_pct": -43.16192,
+        "round_trips": 3,
+        "sharpe": -1.3486,
+        "trades": 6,
+        "win_rate": 0.333333
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -46.850063,
+        "return_pct": 5.875723,
+        "round_trips": 1,
+        "sharpe": 0.5013,
+        "trades": 3,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "ma_cross-02",
+      "buyhold_test": {
+        "max_drawdown_pct": -44.212712,
+        "return_pct": -13.084342
+      },
+      "excess_return_pct": -43.696085,
+      "params": {
+        "fast": 5,
+        "slow": 100
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "ma_cross",
+      "test": {
+        "max_drawdown_pct": -56.780428,
+        "return_pct": -56.780428,
+        "round_trips": 5,
+        "sharpe": -1.8992,
+        "trades": 11,
+        "win_rate": 0.2
+      },
+      "token": "FUZZY",
+      "train": {
+        "max_drawdown_pct": -15.434711,
+        "return_pct": 53.355296,
+        "round_trips": 0,
+        "sharpe": 1.6965,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "donchian-07",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": -55.120876,
+      "params": {
+        "entry": 30,
+        "exit": 15
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": false
+      },
+      "strategy_id": "donchian",
+      "test": {
+        "max_drawdown_pct": -94.501906,
+        "return_pct": -81.590063,
+        "round_trips": 3,
+        "sharpe": 1.9035,
+        "trades": 6,
+        "win_rate": 0.0
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -80.169439,
+        "return_pct": 116.427485,
+        "round_trips": 2,
+        "sharpe": 2.2462,
+        "trades": 5,
+        "win_rate": 0.0
+      }
+    },
+    {
+      "agent_id": "macd-14",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": -73.119734,
+      "params": {
+        "fast": 12,
+        "signal": 14,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": true
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -99.886856,
+        "return_pct": -99.588921,
+        "round_trips": 17,
+        "sharpe": 2.8274,
+        "trades": 35,
+        "win_rate": 0.352941
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -93.762205,
+        "return_pct": -37.241345,
+        "round_trips": 7,
+        "sharpe": 1.9054,
+        "trades": 15,
+        "win_rate": 0.571429
+      }
+    },
+    {
+      "agent_id": "macd-05",
+      "buyhold_test": {
+        "max_drawdown_pct": -85.301141,
+        "return_pct": -26.469187
+      },
+      "excess_return_pct": -73.399955,
+      "params": {
+        "fast": 8,
+        "signal": 16,
+        "slow": 21
+      },
+      "pass": {
+        "beats_buyhold": false,
+        "drawdown_ok": false,
+        "passed_bar": false,
+        "roundtrips_ok": true
+      },
+      "strategy_id": "macd",
+      "test": {
+        "max_drawdown_pct": -99.963019,
+        "return_pct": -99.869142,
+        "round_trips": 17,
+        "sharpe": 2.4705,
+        "trades": 35,
+        "win_rate": 0.294118
+      },
+      "token": "CTF",
+      "train": {
+        "max_drawdown_pct": -93.762205,
+        "return_pct": -26.178194,
+        "round_trips": 9,
+        "sharpe": 1.936,
+        "trades": 19,
+        "win_rate": 0.444444
+      }
+    }
+  ],
+  "metadata": {
+    "assignment": "agent i (family-major order 0..99) -> token TOKENS[i % 9]; XRP gets 12 agents, each other token 11",
+    "bar": {
+      "a": "test return strictly beats same-token buy-and-hold (test period)",
+      "b": "test max drawdown >= -40%",
+      "c": "test round trips >= 12"
+    },
+    "data": {
+      "ARMY": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 365
+      },
+      "BEAR": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 327
+      },
+      "CTF": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 364
+      },
+      "DROP": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 327
+      },
+      "FUZZY": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 327
+      },
+      "PHNIX": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 365
+      },
+      "SLT": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 327
+      },
+      "SOLO": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 365
+      },
+      "XRP": {
+        "first": "2025-10-08",
+        "last": "2026-10-07",
+        "n": 365
+      }
+    },
+    "data_caveat": "daily CLOSE only (o=h=l=c); all indicators close-based; Donchian/stdev degrade to close-only semantics; gaps omitted, never interpolated; 33-day CoinGecko XRPL feed outage 2026-03-19..2026-04-20 affects FUZZY/DROP/SLT/BEAR",
+    "fee_per_side": 0.0015,
+    "phase": "100-agent strategy tournament",
+    "seed": 42,
+    "split": "TRAIN < 2026-05-15 <= TEST (calendar dates)",
+    "start_fake_usd": 10000.0,
+    "test_period": "2026-05-15..2026-10-07"
+  },
+  "pass_count": 0,
+  "winner_agent_id": null
+}
