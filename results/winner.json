@@ -1,0 +1,8 @@
+{
+  "passed_bar": false,
+  "winner_name": null,
+  "token": null,
+  "rules_text": null,
+  "test_stats": null,
+  "note": "Tournament not yet run. Run the 100-agent tournament (Phase 4) and write the winner here."
+}

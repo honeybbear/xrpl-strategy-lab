@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>XRPL Strategy Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="title-row">
+      <h1>XRPL Strategy Lab</h1>
+      <span class="fake-badge">FAKE MONEY</span>
+    </div>
+    <div id="live-badge" class="live-badge offline">○ OFFLINE · not connected · prices frozen</div>
+    <div class="controls">
+      <select id="token-select" aria-label="Token"></select>
+      <div class="tf-group" role="group" aria-label="Timeframe">
+        <button data-tf="D" class="active">Daily</button>
+        <button data-tf="W">Weekly</button>
+        <button data-tf="M">Monthly</button>
+      </div>
+    </div>
+    <div class="indicators">
+      <label><input type="checkbox" id="ov-ma" checked> MA 20/50</label>
+      <label><input type="checkbox" id="ov-ema" checked> EMA 12/26</label>
+      <label><input type="checkbox" id="ov-bb" checked> Bollinger</label>
+      <label><input type="checkbox" id="ov-rsi" checked> RSI</label>
+    </div>
+  </header>
+
+  <div id="ohlc-readout">O — H — L — C —</div>
+
+  <main>
+    <div id="chart-wrap">
+      <canvas id="chart"></canvas>
+      <canvas id="rsi-chart"></canvas>
+      <div id="hint">drag to pan · scroll/pinch to zoom · tap chart for crosshair</div>
+    </div>
+
+    <section id="signals-panel">
+      <h2>Live Signals <span id="signals-head-label"></span></h2>
+      <div class="strat-controls">
+        <select id="strat-select" aria-label="Strategy"></select>
+        <div id="strat-params"></div>
+      </div>
+      <p id="strat-desc" class="strat-desc"></p>
+      <p id="strat-source-note" class="strat-src"></p>
+      <div id="marker-count" class="marker-count"></div>
+      <div id="marker-list"></div>
+      <p class="disclaimer">Signals fire only on <b>closed</b> candles — the live forming candle never gets a marker. Live quotes are token/XRP DEX mid-prices; historical file units may differ.</p>
+    </section>
+
+    <section id="strategy-panel">
+      <h2>Strategy Tournament</h2>
+      <div id="strategy-body">Loading…</div>
+    </section>
+
+    <section id="paper-panel">
+      <h2>Paper Trading <span class="fake-badge">FAKE MONEY</span></h2>
+      <div id="paper-stats"></div>
+      <div class="paper-actions">
+        <input type="number" id="trade-qty" min="0" step="any" value="10" aria-label="Quantity">
+        <button id="btn-buy">Buy</button>
+        <button id="btn-sell">Sell</button>
+        <button id="btn-reset">Reset</button>
+      </div>
+      <div id="paper-trades"></div>
+      <p class="disclaimer">Simulation with fake money only. Not financial advice.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="snapshot-label">Data snapshot: —</span>
+    <span id="price-label"></span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
